@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Les Tondeuses de Rouill'bouc">
+
+  <Fragment slot="banniere">
+
+    <section class="w-full m-0 p-0">
+      <img
+        src="/image_index/banniere.PNG"
+        alt="Bannière d'accueil"
+        class="block w-full h-auto object-contain"
+      />
+    </section>
+
+    <section class="text-center px-4 py-12 space-y-8" data-aos="fade-up">
+      <h1 class="text-3xl md:text-5xl font-bold text-primary-dark">
+        Bienvenue chez les Tondeuses de Rouill'bouc !
+      </h1>
+    
+      <div class="flex justify-center">
+        <img src="/logo.png" alt="Logo du projet" class="w-44 md:w-64 h-auto object-contain" />
+
+      </div>
+    
+      <div class="max-w-3xl mx-auto px-6">
+        <p class="text-lg leading-relaxed text-gray-800">
+          Avant tout éleveurs passionés, notre activité principale est <b>l’entretien paysager par écopaturage</b>. Nous effectuons nos prestations auprès
+          d’entreprises, de particuliers, d’établissements scolaires ou encore d’associations environnementales. Nous sommes situés en Charente.
+        </p>
+      </div>
+    </section>
+  </Fragment>
+  
+
+
+  <!-- Section Projet -->
+  <section class="max-w-7xl mx-auto px-4 py-24 grid md:grid-cols-12 gap-12 items-center" data-aos="fade-up">
+    <div class="md:col-span-7 space-y-6">
+      <p class="text-lg leading-relaxed text-gray-800">
+        Notre entreprise familiale, lancée avec 10 ovins s’est rapidement développée, nous
+        poussant à compléter notre panel de prestations avec la pose de clôture et les animations
+        pédagogiques (en entreprise, auprès des scolaires, étudiants etc …). Nous accompagnons
+        également chaque année quelques particuliers à la suite de l’achat de moutons de
+        compagnie, ce qui nous permet également de renouveler la génétique de nos troupeaux. <br><br>
+        Notre cheptel compte aujourd’hui 200 moutons d’Ouessant, 30 chèvres et 3 ânesses
+        (répartis en une dizaine de groupes) : c’est notre boîte à outil à toute épreuve, adaptable à
+        des sites très différents (riches, pauvres, caillouteux, pentus etc …).<br><br>
+        Afin de nous accompagner dans notre démarche d’amélioration continue et de bénéficier
+        d’un label de qualité, nous avons fait le choix d’adhérer au réseau Animal &amp; Cités, où nous
+        sommes référencés depuis 2021. Nous sommes également adhérents à la Fédération
+        Français d’Ecopâturage et d’Ecopastoralisme.<br><br>
+        Titulaires du Certificat de Compétences des Convoyeurs et des Conducteurs, nous sommes
+        également habilités à réaliser du transport ovin/caprin (jusqu’à 25 individus).
+      </p>
+    </div>
+    <div class="md:col-span-5">
+      <img src="/image_index/photo1.jpg" alt="Photo projet" class="w-full h-auto object-contain rounded-xl" />
+    </div>
+  </section>
+
+  <!-- Présentation Julie & Jean -->
+  <section class="max-w-7xl mx-auto px-4 py-24 grid md:grid-cols-2 gap-16">
+    <!-- Julie -->
+    <div data-aos="fade-up">
+      <img src="/image_index/julie.PNG" alt="Julie" class="w-full h-72 object-contain rounded-xl mb-6" />
+      <h2 class="text-2xl font-semibold text-primary-dark mb-2">Julie</h2>
+      <p class="text-gray-700 text-base leading-relaxed">
+        « Fondatrice de l’entreprise, je me lance en 2020 dans l’aventure de l’écopaturage avec
+        seulement quelques moutons, en activité secondaire. J’ai suivi un cursus agricole dés la 1 ère ,
+        puis me suis orientée dans le domaine de la viticulture / œnologie. Amoureuse des animaux
+        et éleveuse dans l’âme, ce projet s’est imposé tout naturellement. J’ai aujourd’hui beaucoup
+        de plaisir à partager ce chemin en binôme !»
+      </p>
+    </div>
+
+    <!-- Jean -->
+    <div data-aos="fade-up" data-aos-delay="100">
+      <img src="/image_index/jean.PNG" alt="Jean" class="w-full h-72 object-contain rounded-xl mb-6" />
+      <h2 class="text-2xl font-semibold text-primary-dark mb-2">Jean</h2>
+      <p class="text-gray-700 text-base leading-relaxed">
+        « Eleveur / sélectionneur de longue date, j’ai le mouton dans les gênes. J’ai rejoint
+        ma compagne Julie dés 2024. Auparavant j’étais également double-actif : expert en
+        machines forestières à temps complet et également éleveur / sélectionneur en race Dorper.
+        Je consacre désormais mon temps complet à nos activités ovines. Je suis également
+        tondeur de mouton et assure donc cette prestation en saison, chez les particuliers et petits
+        élevages de notre zone (Charente, Charente-Maritime, Gironde, Dordogne). »
+      </p>
+    </div>
+  </section>
+</Layout>
